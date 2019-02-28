@@ -1,0 +1,22 @@
+.offer{
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    h3{
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: #fff;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            line-height: 155%;
+        }
+    }
+    .small{
+        font-size: 0.75rem;
+        line-height: 125%;
+    }
+}

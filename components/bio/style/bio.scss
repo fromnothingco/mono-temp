@@ -1,0 +1,43 @@
+.bio{
+  h2{
+    padding-top: 1rem;
+    margin-left: 2.5rem;
+  }
+  p{
+    padding: 0.5rem 2.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 170%;
+  }
+  section{
+    flex:1;
+  }
+  div{
+    height: 150px;
+    margin: 2rem 0;
+    background: url('/static/media/dials.jpg') no-repeat center center;
+    background-size: cover;
+  }
+}
+
+@media(min-width:640px){
+  .bio{
+    display: flex;
+    h2{
+      padding-top: 1rem;
+      margin-left: 2.5rem;
+    }
+    p{
+      padding: 0.5rem 2.5rem;
+      letter-spacing: 0.05rem;
+      line-height: 170%;
+    }
+    section{
+      flex:2;
+      padding: 4rem 0;
+    }
+    div{
+      flex:1;
+      height: auto;
+    }
+  }
+}

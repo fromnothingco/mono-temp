@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  background:#000f1b;
+  font-family: sans-serif;
+  color: #ccc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: #ccc;
+}
+
+iframe {
+  border: 0;
+}
+
+p{
+  letter-spacing: 0.01rem;
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.09rem;
+  font-weight: lighter;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.overlay{
+  position: absolute;
+  transform: skewY(-27deg);
+  height: 180%;
+  width: 70%;
+  top: -80%;
+  left: -10%;
+  background: linear-gradient(to bottom, #151515 30%, #000);
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+}
+
+.dot-bk{
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  top:0;
+  right: 9%;
+  z-index: 0;
+  //background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+@media (max-width: 600px){
+  nav.main{
+    ul{
+      text-align: center;
+    }
+  } 
+}
+
+
+@import '../../components/footer/style/footer.scss';
+@import '../../components/header/style/header.scss';
+@import '../../components/bio/style/bio.scss';
+@import '../../components/services/style/services.scss';
+@import '../../components/tracks/style/tracks.scss';
+@import '../../components/main-nav/style/style.scss';
+@import '../../components/offer/style/style.scss';
